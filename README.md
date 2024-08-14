@@ -43,8 +43,6 @@ To open this repository in a codespace, click the green `<> Code` button
 above. In the panel that opens, go to the `Codespaces` tab, and click the
 `Create codespace on main` button.
 
----
-
 ![Screenshot showing the button to create a codespace](img/create-codespace.png)
 
 ## Submitting this assignment
