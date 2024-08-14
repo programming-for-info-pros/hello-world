@@ -7,6 +7,9 @@ line-length = 88
 target-version = ['py312']
 include = '\.pyi?$'
 
+[tool.autopep8]
+max_line_length = 88
+
 [tool.pyright]
 venv = "venv"
 venvPath = "."
