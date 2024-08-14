@@ -1,6 +1,6 @@
 [project]
 name = "hello_world"
-version = "2024.0.0"
+version = "2024.0.1"
 
 [tool.black]
 line-length = 88
