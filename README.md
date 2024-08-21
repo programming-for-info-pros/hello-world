@@ -67,7 +67,7 @@ To open the codespace in Visual Studio code, click the **…** next to
 the codespace and select **Open in Visual Studio Code**, and then
 follow the prompts.
 
-<!-- TODO: rest of process for opening a codespace in VS Code -->
+![Screenshot showing how to open a codespace in VS Code](img/open-in-vs-code.png)
 
 ### Open the repository in a Dev Container via Visual Studio Code
 
@@ -77,13 +77,33 @@ also running on your personal computer.
 
 If you choose this option, first make sure that you have [set up Git
 in VS Code][setup] and have signed into VS Code with your GitHub
-account.
+account. Then, follow the instructions to [clone a repository
+locally][local]. (“[Clone][clone]” means “copy.”)
 
-Then, follow the instructions to [clone a repository
-locally][local]. (“[Clone][clone]” means “copy.”) You should see a
-repository named `<your-github-username>/hello-world` in the list of
-repositories available to clone. (Make sure you do not accidentally
-clone the `programming-for-info-pros/hello-world` repository.)
+![Screenshot showing the clone repository button](img/clone-repo.png)
+
+You should see a repository named `<your-github-username>/hello-world`
+in the list of repositories available to clone. (Make sure you do not
+accidentally clone the `programming-for-info-pros/hello-world`
+repository.)
+
+Once you’ve selected the repository to clone, you’ll be prompted to
+pick a local folder on your computer as the destination of your
+repository. If (for example) you pick a folder named `Code`, then
+cloning the `<your-github-username>/hello-world` repository will
+create a folder named `hello-world` inside the `Code` folder.
+
+Next you'll be asked if you trust the authors of the code, which
+you should.
+
+At some point, a notification should pop up in the lower right corner
+asking if you want to reopen the folder in a container. You should do
+this.
+
+![Screenshot of notification offering to open the folder in a container](img/open-in-container.png)
+
+If you miss the notification, click the bell icon in the lower right
+corner to show it again.
 
 [clone]: https://docs.github.com/en/get-started/learning-about-github/github-glossary#clone
 [setup]: https://code.visualstudio.com/docs/sourcecontrol/intro-to-git#_set-up-git-in-vs-code
