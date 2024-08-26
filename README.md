@@ -113,7 +113,8 @@ corner to show it again.
 
 ## Requirements
 
-You need to write a program that prints `Hello, World!` to the terminal.
+You need to write a program in `hello_world.py` with a single function
+named `hello_world` that prints `Hello, World!` to the terminal.
 
 ## Submitting this assignment
 
