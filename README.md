@@ -111,15 +111,20 @@ corner to show it again.
 
 <!-- TODO: rest of process for setting up a Dev Container -->
 
+## Requirements
+
+You need to write a program that prints `Hello, World!` to the terminal.
+
 ## Submitting this assignment
 
-You submit this assignment by pushing the changes you make in your
-codespace back to this repository.
+You submit this assignment by committing and pushing the changes you
+make in your codespace back to your assignment repository.
 
-The repository is set up to automatically run acceptance tests
+Your repository is set up to automatically run acceptance tests
 whenever you push changes. However, you first need to grant permission
-for them to run. Click the **Actions** tab at the top of the page, and
-then agree to enable workflows.
+for them to run. Go to your assignment repository on GitHub, click the
+**Actions** tab at the top of the page, and then agree to enable
+workflows.
 
 ![Screenshot showing how to enable acceptance tests](img/enable-workflows.png)
 
@@ -134,7 +139,8 @@ The test should fail, since you haven't written any code to make it
 pass yet!
 
 Once you've done the above, you should be able to see the current
-status of the tests below.
+status of the tests below. After you've committed and pushed your
+code, if everything is working, it should turn green.
 
 ![acceptance tests](../../actions/workflows/run-tests.yml/badge.svg)
 
